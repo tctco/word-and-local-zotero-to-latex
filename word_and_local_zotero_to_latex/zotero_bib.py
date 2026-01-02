@@ -12,7 +12,7 @@ def get_bibtex_from_zotero(title: str) -> str:
     Query local Zotero and return a BibTeX block (as text) for a title string.
     """
     zotero_client = zotero.Zotero(
-        library_id="0",
+        library_id="0", # https://groups.google.com/g/zotero-dev/c/ElvHhIFAXrY/m/fA7SKKwsAgAJ?pli=1
         library_type="user",
         api_key=None,
         local=True,
