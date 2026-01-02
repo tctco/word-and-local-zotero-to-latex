@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# bibtex files
+*.bib
+
+# tex files
+*.tex
+
+# docx files
+*.docx
+
+# test scripts
+win.py
+
+# output folder
+output/
