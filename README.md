@@ -13,7 +13,7 @@ You may need to enable Zotero local server by
 - **Windows** (uses `pywin32` to automate Microsoft Word)
 - **Microsoft Word** installed
 - **Zotero** installed (local library available)
-- **Pandoc** installed (CLI executable)
+- ~~**Pandoc** installed (CLI executable)~~ This should be handled by `pypandoc_binary` as you sync the venv 
 
 ## Install (uv)
 
