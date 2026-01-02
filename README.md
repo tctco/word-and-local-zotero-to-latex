@@ -3,6 +3,11 @@
 Convert a Word `.docx` with Zotero citations (Word field codes) into LaTeX, and
 replace citations with `\cite{...}` keys fetched from your **local Zotero**. Currently only works on Windows.
 
+You may need to enable Zotero local server by
+
+<img width="1103" height="692" alt="01a4b6df11c046f4e6654e79fa5986b6" src="https://github.com/user-attachments/assets/f10c1c66-056a-4f0b-85f9-631f9d80798d" />
+
+
 ## Requirements
 
 - **Windows** (uses `pywin32` to automate Microsoft Word)
