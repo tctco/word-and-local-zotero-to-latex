@@ -35,8 +35,6 @@ uv run python main.py "path/to/input.docx" --output-folder "output"
 
 ## Outputs
 
-By default, files are written to `./output/`:
-
 - `output/patched.docx`: Word file with Zotero fields replaced by placeholders
 - `output/output.tex`: pandoc-generated LaTeX with placeholders replaced to `\cite{...}`
 - `output/refs.bib`: BibTeX entries fetched from local Zotero
