@@ -4,7 +4,7 @@ import asyncio
 from pathlib import Path
 
 from .models import ZoteroField
-from .pandoc_runner import check_pandoc_installation, run_pandoc_docx_to_latex
+from .pandoc_runner import run_pandoc_docx_to_latex
 from .tex_replace import replace_placeholders_in_tex
 from .word_patch import WordCitationPatcher
 from .zotero_bib import fetch_bibtex_for_titles
